@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Roberto Fierimonte"
-  avatar           : "profile.png"
+  avatar           : "profile.jpeg"
   bio              : "Machine Learning Engineer"
   location         : "London, UK"
   employer         : 
@@ -90,7 +90,7 @@ author:
   email            : "roberto.fierimonte@gmail.com"
   researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
-  bitbucket        : "robertofierimonte"
+  bitbucket        : "robertofierimonte/workspace/repositories"
   codepen          :
   dribbble         :
   flickr           :
