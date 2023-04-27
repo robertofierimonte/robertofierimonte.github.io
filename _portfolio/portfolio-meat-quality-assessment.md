@@ -1,8 +1,7 @@
 ---
 title: "Meat Quality Assessment using Deep Neural Networks"
-excerpt: "Deep Learning model to assess the quality of red meat based on sample photos.<br/><img src='/images/meat.jpeg'>"
+excerpt: "Deep Learning model to assess the quality of red meat based on sample photos.<br/><img src='/images/meat.jpg' width='500'>"
 permalink: "/portfolio/meat-quality-assessment"
-link: "https://github.com/robertofierimonte/meat-quality-assessment"
 collection: portfolio
 ---
 
