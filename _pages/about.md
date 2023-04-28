@@ -8,23 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a data scientist applying machine learning tools and causal
-inference techniques to remote sensing data. I am also an affiliated
-researcher with the [Data-driven Analysis of Peace Project](https://dapp-lab.org)
-and a research collaborator with the 
-[Research on International Policy Implementation Lab](https://bridgingthegapproject.org/ripil).
+Welcome! 
 
-I earned my Ph.D in Political Science from the
-[University *of* North Carolina *at* Chapel Hill](https://www.unc.edu) and my
-B.A. in Political Science from [Haverford College](https://www.haverford.edu).
-My academic work has been [published](publications) or is forthcoming in
-*International Studies Quarterly*, *Conflict Management and Peace Science*,
-*Political Science Research and Methods*, and *PS: Political Science & Politics*,
-among other outlets. This [research](research) explores the causes and
-consequences of political violence using a broad variety of methods such as
-latent variable models, geospatial analysis, and big data. While primarily
-focused on civil conflict, it also examines contentious political phenomena
-including terrorism and economic statecraft, and develops new measures of
-institutions in international relations. I have [teaching](teaching) experience
-in both quantitative methodology and international relations, and am a certified
-instructor with [The Carpentries](https://carpentries.org).
+I am a Machine Learning Engineer based in London, who is passionate about building end-to-end ML solutions on the cloud. I am currently working at [BT](https://www.bt.com/), where I am responsible for the delivery of Data Science and ML projects for the Networks and Openreach business units. Prior to BT I worked at [Amazon](http://www.amazon.co.uk), [Bumble](https://bumble.com/), and [Avanade](https://www.avanade.com/en-gb/).
+
+I earned my M.Res. in Computational Statistics and Machine Learning from [University College London](http://www.ucl.ac.uk) under the supervision of [Prof. David Barber](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php), with a thesis on Variational Autoencoders for Time Series generation and forecasting. Prior to moving to the UK I graduated from the M.Sc. in Industrial Engineering from [Sapienza University of Rome](https://www.uniroma1.it/en/) under the supervision of [Prof. Massimo Panella](https://sites.google.com/uniroma1.it/massimopanella-eng/home), with whom I co-authored a number of research papers on distributed ML methods. All my publications can be found in the [publications](publications) section.
+
+Outside of work I enjoy reading, cooking new veggie recipes, exercising, visiting art galleries, and walking in the nature. I am currently learning Finnish.
