@@ -1,6 +1,8 @@
 ---
 title: "Machine Learning pipelines on Google Cloud Platform (GCP)"
-excerpt: "A collection of reusable templates for training and deploying ML models on GCP Vertex AI.<br/><img src='/images/vertex.png' height='100'>"
+excerpt: "A collection of reusable templates for training and deploying ML models on GCP Vertex AI."
+header:
+  teaser: vertex.png
 permalink: "/portfolio/gcp-ml-pipelines"
 collection: portfolio
 ---

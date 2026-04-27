@@ -1,7 +1,9 @@
 ---
 title: "Data Science base image"
-excerpt: "Base Docker image for CI/CD Data Science workflows.<br/><img src='/images/docker.jpg' height='100'>"
-permalink: "/portfolio/gcp-ml-pipelines"
+excerpt: "Base Docker image for CI/CD Data Science workflows."
+header:
+  teaser: docker.jpg
+permalink: "/portfolio/data-science-base-image"
 collection: portfolio
 ---
 

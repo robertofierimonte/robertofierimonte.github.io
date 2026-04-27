@@ -1,40 +1,233 @@
 /* ==========================================================================
-   CUSTOM CSS BY ME
+   CUSTOM CSS
    ========================================================================== */
 
 /*
-   Visibility
+   Author avatar polish
    ========================================================================== */
 
-.zoom{
-  /* default button */
-  
+.author__avatar img {
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
   &:hover {
-    transform: scale(1.25);
+    transform: scale(1.05);
   }
 }
 
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-}
+/*
+   Dark mode (follows OS preference)
+   ========================================================================== */
 
-/* overlay effect (full height and width) - lays on top of the container */
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .3s ease;
-  background-color: $dark-gray;
-}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+  }
 
-/* When you mouse over the container, fade in the overlay */
-.container:hover .overlay {
-  opacity: 0.25;
+  /* Page & content areas */
+  .page,
+  .archive,
+  .initial-content,
+  .search-content {
+    background-color: #1a1a2e;
+  }
+
+  /* Masthead / top navigation */
+  .masthead {
+    background-color: #16213e;
+    border-bottom-color: #2a2a4a;
+  }
+
+  .greedy-nav {
+    background-color: #16213e;
+
+    a {
+      color: #c0c0d0;
+
+      &:hover {
+        color: #5dade2;
+      }
+    }
+
+    .visible-links a:before {
+      background: #5dade2;
+    }
+  }
+
+  /* Links */
+  a {
+    color: #5dade2;
+
+    &:visited {
+      color: #7bbde8;
+    }
+
+    &:hover {
+      color: #85c1e9;
+    }
+  }
+
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #f0f0f0;
+  }
+
+  /* Sidebar & author profile */
+  .sidebar {
+    p, li {
+      color: #c0c0d0;
+    }
+  }
+
+  .author__name,
+  .author__bio {
+    color: #e0e0e0;
+  }
+
+  .author__urls {
+    background: #16213e;
+    border-color: #2a2a4a;
+
+    &:after {
+      border-color: #16213e transparent;
+    }
+
+    &:before {
+      border-color: #2a2a4a transparent;
+    }
+
+    a {
+      color: #c0c0d0;
+
+      &:hover {
+        color: #5dade2;
+      }
+    }
+  }
+
+  .author__avatar img {
+    border-color: #2a2a4a;
+  }
+
+  /* Footer */
+  .page__footer {
+    background-color: #0f0f23;
+    color: #808090;
+
+    a {
+      color: #5dade2;
+    }
+  }
+
+  footer {
+    color: #808090;
+  }
+
+  /* Code blocks */
+  code {
+    background-color: #16213e;
+    color: #e0e0e0;
+  }
+
+  pre {
+    background-color: #16213e;
+    border-color: #2a2a4a;
+  }
+
+  /* Archive items */
+  .archive__item-title a {
+    color: #e0e0e0;
+
+    &:hover {
+      color: #5dade2;
+    }
+  }
+
+  .archive__item-excerpt {
+    color: #b0b0c0;
+  }
+
+  .archive__item-teaser {
+    border-color: #2a2a4a;
+  }
+
+  /* Page meta & taxonomy */
+  .page__meta,
+  .page__taxonomy {
+    color: #808090;
+  }
+
+  /* Borders */
+  .page {
+    border-bottom-color: #2a2a4a;
+  }
+
+  hr {
+    border-color: #2a2a4a;
+  }
+
+  /* Blockquotes */
+  blockquote {
+    border-left-color: #2a2a4a;
+    color: #b0b0c0;
+  }
+
+  /* Tables */
+  table {
+    color: #e0e0e0;
+  }
+
+  th {
+    background-color: #16213e;
+  }
+
+  td {
+    border-color: #2a2a4a;
+  }
+
+  /* Grid items */
+  .grid__wrapper .archive__item {
+    border-color: #2a2a4a;
+  }
+
+  /* Navigation dropdown (mobile) */
+  .greedy-nav .hidden-links {
+    background-color: #16213e;
+    border-color: #2a2a4a;
+
+    a {
+      color: #c0c0d0;
+    }
+  }
+
+  /* Notices */
+  .notice,
+  .notice--primary,
+  .notice--info,
+  .notice--warning,
+  .notice--success,
+  .notice--danger {
+    background-color: #16213e;
+    color: #e0e0e0;
+  }
+
+  /* Social sharing buttons */
+  .page__share-title {
+    color: #e0e0e0;
+  }
+
+  /* Pagination */
+  .pagination a {
+    color: #5dade2;
+  }
+
+  /* Input/forms */
+  input,
+  textarea,
+  select {
+    background-color: #16213e;
+    color: #e0e0e0;
+    border-color: #2a2a4a;
+  }
 }
